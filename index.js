@@ -83,3 +83,58 @@ function reverseIterateAndLogWithFor(n) {
     }
 
 
+
+    function weirdDivisionWithWhile(n){
+        var i=1
+        while (i<=n) {
+            if (n%3===0 && n%5===0){
+                return 'JuliaJames'
+            }
+            else if (n%5===0){
+            return('James')
+        }
+            else if (n%3===0){
+            return('Julia')
+    }
+            else{
+            return n
+    
+    }
+            i++
+        }
+    }
+
+  
+
+******************4********************
+    function laughWithFor(number) {
+        var result =''
+         var str='ha'
+         for (var i=0; i<number; i++){
+            result=result+str
+        }
+          return result
+     }
+
+
+
+
+     function laughWithWhile(number) {
+        var result=''
+        var i=0
+        while (i<=number) {
+         result =result+'ha'
+            
+        }
+         i++
+        return result 
+    }
+
+
+    function laugh (n) {
+        if (n === 0){
+            return ""
+        }
+       return  laugh(n-1)  +"ha"
+    }
+
